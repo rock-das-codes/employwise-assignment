@@ -1,16 +1,14 @@
 
-
-```markdown
 # Employwise Assignment
 
-Welcome to the Employwise Assignment repository. This project is a [brief description of your project].
+Welcome to the Employwise Assignment repository.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contact](#contact)
+
 
 ## Introduction
 
@@ -43,11 +41,5 @@ npm run dev
 This will start the server on `localhost:5173` where you can view the application.
 
 
-Thank you for viewing, here's the live version : 
+Thank you for viewing, here's the live version : https://employwise-assignment-delta.vercel.app/
 
-For any questions or feedback, please contact [Your Name](mailto:your.email@example.com).
-```
-
-Make sure to replace placeholders (e.g., `[brief description of your project]`, `[Description of feature 1]`, `[Your Name]`, `your.email@example.com`) with actual information relevant to your project.
-
-Feel free to modify this template to better suit your project’s needs.
