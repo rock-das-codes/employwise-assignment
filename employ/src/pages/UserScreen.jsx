@@ -150,13 +150,11 @@ export default function UsersManagement() {
     try {
       const token = localStorage.getItem('token');
       if (!token) {
-        navigate('/login');
+        navigate('/');
         return;
       }
 
-      const response = await axios.get(`https://reqres.in/api/users?page=${pageNumber}`, {
-        headers: { Authorization: `Bearer ${token}` }
-      });
+      const response = await axios.get(`https://reqres.in/api/users?page=${pageNumber}`);
 
       setUsers(response.data.data);
       setTotalPages(response.data.total_pages);
